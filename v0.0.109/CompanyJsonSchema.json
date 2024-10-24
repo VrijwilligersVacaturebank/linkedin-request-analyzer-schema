@@ -1,0 +1,382 @@
+{
+  "$ref": "#/definitions/Company",
+  "definitions": {
+    "Company": {
+      "type": "object",
+      "properties": {
+        "$schema": {
+          "type": "string",
+          "format": "uri"
+        },
+        "url": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "companyCustomIdentifier": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "companyNumberIdentifier": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "companyAbout": {
+          "type": "object",
+          "properties": {
+            "websiteUrl": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "linkedinUrl": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "phone": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "foundedOn": {
+              "type": "object",
+              "properties": {
+                "year": {
+                  "type": [
+                    "number",
+                    "null"
+                  ]
+                },
+                "month": {
+                  "type": [
+                    "number",
+                    "null"
+                  ]
+                },
+                "day": {
+                  "type": [
+                    "number",
+                    "null"
+                  ]
+                }
+              },
+              "required": [
+                "year",
+                "month",
+                "day"
+              ],
+              "additionalProperties": false
+            },
+            "locationString": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "location": {
+              "type": "object",
+              "properties": {
+                "countryCode": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "postalCode": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "phoneCode": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "flag": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "currency": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "latitude": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "longitude": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "timezones": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "zoneName": {
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      },
+                      "gmtOffset": {
+                        "type": [
+                          "number",
+                          "null"
+                        ]
+                      },
+                      "gmtOffsetName": {
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      },
+                      "abbreviation": {
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      },
+                      "tzName": {
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      }
+                    },
+                    "required": [
+                      "zoneName",
+                      "gmtOffset",
+                      "gmtOffsetName",
+                      "abbreviation",
+                      "tzName"
+                    ],
+                    "additionalProperties": false
+                  }
+                },
+                "state": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "country": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "city": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                }
+              },
+              "required": [
+                "countryCode",
+                "postalCode",
+                "phoneCode",
+                "flag",
+                "currency",
+                "latitude",
+                "longitude",
+                "timezones",
+                "state",
+                "country",
+                "city"
+              ],
+              "additionalProperties": false
+            },
+            "industry": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "name": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "description": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "universalName": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "tagline": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "employeeCountRange": {
+              "type": "object",
+              "properties": {
+                "start": {
+                  "type": [
+                    "number",
+                    "null"
+                  ]
+                },
+                "end": {
+                  "type": [
+                    "number",
+                    "null"
+                  ]
+                }
+              },
+              "required": [
+                "start",
+                "end"
+              ],
+              "additionalProperties": false
+            },
+            "employeeCount": {
+              "type": [
+                "number",
+                "null"
+              ]
+            },
+            "followerCount": {
+              "type": [
+                "number",
+                "null"
+              ]
+            }
+          },
+          "required": [
+            "websiteUrl",
+            "linkedinUrl",
+            "phone",
+            "foundedOn",
+            "locationString",
+            "location",
+            "industry",
+            "name",
+            "description",
+            "universalName",
+            "tagline",
+            "employeeCountRange",
+            "employeeCount",
+            "followerCount"
+          ],
+          "additionalProperties": false
+        },
+        "companyName": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "companyUrn": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "companyLogo": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "defaultCompanyLogo": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "isWorksNowHere": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "isFounder": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "isCoFounder": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "startDate": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "endDate": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "startDateStr": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "endDateStr": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "$schema",
+        "url",
+        "companyCustomIdentifier",
+        "companyNumberIdentifier",
+        "companyAbout",
+        "companyName",
+        "companyUrn",
+        "companyLogo",
+        "defaultCompanyLogo",
+        "isWorksNowHere",
+        "isFounder",
+        "isCoFounder",
+        "startDate",
+        "endDate",
+        "startDateStr",
+        "endDateStr"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "$schema": "http://json-schema.org/draft-07/schema#"
+}
