@@ -2891,7 +2891,7 @@
                         "null"
                       ]
                     },
-                    "resumePDF": {
+                    "resumePdf": {
                       "type": [
                         "string",
                         "null"
@@ -3895,7 +3895,7 @@
                     "mutualConnections",
                     "connectionsCount",
                     "isFollowing",
-                    "resumePDF",
+                    "resumePdf",
                     "userHashTags",
                     "locationString",
                     "location",
