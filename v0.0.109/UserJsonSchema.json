@@ -94,7 +94,7 @@
                   },
                   "companyNumberIdentifier": {
                     "type": [
-                      "string",
+                      "number",
                       "null"
                     ]
                   },
@@ -922,7 +922,7 @@
                       },
                       "companyNumberIdentifier": {
                         "type": [
-                          "string",
+                          "number",
                           "null"
                         ]
                       },
@@ -1196,7 +1196,7 @@
                       },
                       "companyNumberIdentifier": {
                         "type": [
-                          "string",
+                          "number",
                           "null"
                         ]
                       },
@@ -1461,7 +1461,7 @@
                       },
                       "companyNumberIdentifier": {
                         "type": [
-                          "string",
+                          "number",
                           "null"
                         ]
                       },
@@ -1544,7 +1544,7 @@
                       },
                       "companyNumberIdentifier": {
                         "type": [
-                          "string",
+                          "number",
                           "null"
                         ]
                       },
@@ -3122,7 +3122,7 @@
             },
             "companyNumberIdentifier": {
               "type": [
-                "string",
+                "number",
                 "null"
               ]
             },

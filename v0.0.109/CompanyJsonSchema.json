@@ -22,7 +22,7 @@
         },
         "companyNumberIdentifier": {
           "type": [
-            "string",
+            "number",
             "null"
           ]
         },
