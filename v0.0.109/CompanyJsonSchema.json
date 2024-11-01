@@ -313,48 +313,6 @@
             "string",
             "null"
           ]
-        },
-        "isWorksNowHere": {
-          "type": [
-            "boolean",
-            "null"
-          ]
-        },
-        "isFounder": {
-          "type": [
-            "boolean",
-            "null"
-          ]
-        },
-        "isCoFounder": {
-          "type": [
-            "boolean",
-            "null"
-          ]
-        },
-        "startDate": {
-          "type": [
-            "number",
-            "null"
-          ]
-        },
-        "endDate": {
-          "type": [
-            "number",
-            "null"
-          ]
-        },
-        "startDateStr": {
-          "type": [
-            "string",
-            "null"
-          ]
-        },
-        "endDateStr": {
-          "type": [
-            "string",
-            "null"
-          ]
         }
       },
       "required": [
@@ -366,14 +324,7 @@
         "companyName",
         "companyUrn",
         "companyLogo",
-        "defaultCompanyLogo",
-        "isWorksNowHere",
-        "isFounder",
-        "isCoFounder",
-        "startDate",
-        "endDate",
-        "startDateStr",
-        "endDateStr"
+        "defaultCompanyLogo"
       ],
       "additionalProperties": false
     }
